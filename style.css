@@ -1,0 +1,108 @@
+
+
+/* -------  Structure ------- */
+
+body {
+	background-image:url(images/subtle_white_mini_waves.png);
+  margin: 0;
+}
+
+header {
+	height: 140px;
+	background-color: #8a501d;
+	background-image:url(images/subtle_brown_mini_waves.png);
+}
+
+footer {
+	height: 84px;
+	background-color: #8a501d;
+	background-image:url(images/subtle_brown_mini_waves.png);
+}
+
+.wrapper {
+	width: 580px;
+	margin: auto;	
+}
+
+img {
+ width: 100%;	
+}
+
+
+/* -------  Name/Logo ------- */
+
+header h1 {
+	font-family: 'Playfair Display', serif;
+	color: whitesmoke;
+	margin: 0px;
+	padding-top: 24px;
+	font-size: 48px;
+	text-align:center;
+}
+
+header h2 {
+	font-family: 'Playfair Display', serif;
+	color: whitesmoke;
+	margin: 0px;
+	padding-top: 16px;
+	font-size: 22px;
+	text-align: center;
+}
+
+/* -------  Sections ------- */
+
+h1, h2 {
+	color: red;
+	font-family: 'Noto Serif', serif;
+}
+
+h1 { font-size: 38px;}
+h2 { font-size: 30px;}
+
+p, li {
+	font-family: 'Noto Sans', sans-serif;
+	color: black;
+	font-size: 18px;
+	font-weight: 400;
+    line-height: 26px;
+}
+
+
+a {
+	font-weight: 700;
+	text-decoration: none;	
+}
+/* -------  Links ------- */
+a:link { color: blue; }
+a:visited { color:blue; }
+a:hover { color: #403933; }
+a:active { color: #403933; }
+
+
+a:hover {
+	text-decoration: underline;	
+}
+footer p {
+	color: #fff;	
+	text-align: center;
+}
+
+
+
+.gap-sm {
+    height: 50px;
+    width: auto;
+}
+.gap-md {
+    height: 100px;
+    width: auto;
+}
+.gap-lg {
+    height: 200px;
+    width: auto;
+}
+
+.gap-footer {
+    height: 10px;
+    width: auto;
+}
